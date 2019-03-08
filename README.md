@@ -12,3 +12,4 @@
  
 ### Adaptive Random Search :
 The Strategy of the Adaptive Step Size Random Search algorithm is to trial a larger step in each iteration and adopt the larger step if it results in an improvement. Very large step sizes are trialled in the same manner although with a much lower frequency. This strategy of preferring large moves is intended to allow the technique to escape local optima.
+The Adaptive Random Search algorithm was designed to address the limitations of the fixed step size in the Creeping Random Search algorithm and the naive step size in random search.
